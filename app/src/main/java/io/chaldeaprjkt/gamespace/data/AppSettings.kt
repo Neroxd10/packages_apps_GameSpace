@@ -49,10 +49,6 @@ class AppSettings @Inject constructor(private val context: Context) {
         get() = db.getBoolean(KEY_AUTO_BRIGHTNESS_DISABLE, true)
         set(it) = db.edit().putBoolean(KEY_AUTO_BRIGHTNESS_DISABLE, it).apply()
 
-    var noThreeScreenshot
-        get() = db.getBoolean(KEY_3SCREENSHOT_DISABLE, false)
-        set(it) = db.edit().putBoolean(KEY_3SCREENSHOT_DISABLE, it).apply()
-
     var stayAwake
         get() = db.getBoolean(KEY_STAY_AWAKE, false)
         set(value) = db.edit().putBoolean(KEY_STAY_AWAKE, value).apply()
