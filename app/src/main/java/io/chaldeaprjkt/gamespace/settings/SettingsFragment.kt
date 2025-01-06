@@ -91,6 +91,7 @@ class SettingsFragment : Hilt_SettingsFragment(), Preference.OnPreferenceChangeL
             }
         }
         return false
+    }
     
     override fun onDisplayPreferenceDialog(preference: Preference) {
         if (preference is QuickStartAppPreference) {

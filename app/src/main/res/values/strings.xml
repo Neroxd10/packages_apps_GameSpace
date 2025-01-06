@@ -66,5 +66,7 @@
     <string name="cant_find_angle_pkg">ANGLE is not available on your system</string>
 
     <string name="per_app_unregister">Remove %1$s from library</string>
+    <string name="quick_start_apps_title">Quick Start Apps</string>
+    <string name="quick_start_apps_summary">Select apps to launch quickly</string>
 
 </resources>
